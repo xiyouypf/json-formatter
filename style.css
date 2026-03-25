@@ -62,3 +62,25 @@ button:hover {
     min-height: 100px;
     border: 1px solid #ccc;
 }
+
+.footer-cta {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-cta a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #00bcd4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.footer-cta a:hover {
+    background-color: #fff;
+    color: #00bcd4;
+    border: 1px solid #00bcd4;
+}
