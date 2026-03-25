@@ -17,9 +17,15 @@ body {
     max-width: 800px;
 }
 
-h1 {
-    text-align: center;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 1.5rem;
+}
+
+h1 {
+    margin: 0; /* Remove default margin */
 }
 
 #json-input {
@@ -63,23 +69,19 @@ button:hover {
     border: 1px solid #ccc;
 }
 
-.footer-cta {
-    text-align: center;
-    margin-top: 30px;
-}
-
-.footer-cta a {
+.header-cta a {
     display: inline-block;
-    padding: 12px 24px;
+    padding: 10px 20px;
     background-color: #00bcd4;
     color: #fff;
     text-decoration: none;
     border-radius: 25px;
     font-weight: bold;
+    white-space: nowrap; /* Prevent text from wrapping */
     transition: background-color 0.3s, color 0.3s;
 }
 
-.footer-cta a:hover {
+.header-cta a:hover {
     background-color: #fff;
     color: #00bcd4;
     border: 1px solid #00bcd4;
